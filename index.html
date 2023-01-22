@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="modeloCarro">Insire o Modelo Do Carro</label>
+            <input type="text" name="modelo" id="modeloCarro" placeholder="Ex: Fusca">
+        </div>
+        <div>
+            <label for="marcaCarro">Insire a Marca do Carro</label>
+            <input type="text" name="marca" id = "marcaCarro" placeholder="Ex: Volkswagen">
+        </div>
+        <div>
+            <label for="anoCarro"> Insire o Ano do Carro</label>
+            <input type="text" name="ano" id="anoCarro" placeholder="Ex: 1995">
+        </div>
+        <div>
+            <label for="quilometragemCarro">Insire a Quilometragem do Carro</label>
+            <input type="text" name="quilometragem" id="quilometragemCarro" placeholder="Ex: 999">
+        </div>
+        <div>
+            <label for="valorCarro">Insire o valor do Carro</label>
+            <input type="text" name="valor" id="valorCarro" placeholder="Ex: 9999">
+        </div>
+        <div>
+            <span>Carro</span><br>
+            <label for="carroNovo">Novo</label>
+            <input type="radio" name="CarroUsadoOuNovo" id="carroNovo" value="Novo"><br>
+            
+            <label for="carroUsado">Usado</label>
+            <input type="radio" name="CarroUsadoOuNovo1" id="carroUsado" value="Usado">
+        </div>
+        <div>
+            <label for="priCheckbox">Airbag</label>
+            <input id="priCheckbox" type="checkbox" name="adicionais" value="Airbag">
+
+            <label for="segCheckout">Alarme</label>
+            <input id="segCheckout" type="checkbox" name="adicionais" value="Alarme">
+
+            <label for="triCheckout">Air Condicionado</label>
+            <input id="triCheckout" type="checkbox" name="adicionais" value="Air Condicionado">
+        </div>
+        <div>
+            <label for="opcoes">Final Da Placa</label>
+            <select name="select" id="opcoes">
+                <option value="1e2">1 e 2</option>
+                <option value="3e4">3 e 4</option>
+                <option value="5e6">5 e 6</option>
+                <option value="7e8">7 e 8</option>
+                <option value="9e0">9 e 0</option>
+              </select>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
